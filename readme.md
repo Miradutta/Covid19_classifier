@@ -11,7 +11,13 @@ Dataset : https://github.com/ieee8023/covid-chestxray-dataset
 Our image dataset is stored as .jpg files with labels stored in metadata.csv. We use ImageDataBunch.from_df
 to load the data and assign the labels. Then we normalize our data based on the stats of the RGB channels from the ImageNet dataset
 
-We have 6 classes 'ARDS', 'COVID-19', 'No Finding', 'Pneumocystis', 'SARS', 'Streptococcus'
+We have 6 classes 
+1. ARDS
+2. COVID-19
+3. No Finding
+4. Pneumocystis
+5. SARS
+6. Streptococcus
 
 ## Training the model
 
